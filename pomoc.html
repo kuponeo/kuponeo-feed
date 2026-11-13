@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kuponeo · Pomoc</title>
+<style>
+  :root {
+    --ground: #FBF4F5;
+    --surface: #FFFFFF;
+    --ink: #2D1418;
+    --ink-soft: #6E4A50;
+    --accent: #B4333E;
+    --accent-bg: #F6DCDE;
+    --line: #E9D3D6;
+    color-scheme: light dark;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --ground: #211518;
+      --surface: #2B1D21;
+      --ink: #F3E6E8;
+      --ink-soft: #C9A6AC;
+      --accent: #E0808A;
+      --accent-bg: #47262C;
+      --line: #473237;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    background: var(--ground);
+    color: var(--ink);
+    font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+    line-height: 1.65;
+    margin: 0;
+    padding: 0 20px 72px;
+  }
+  main { max-width: 680px; margin: 0 auto; }
+  header { padding: 48px 0 8px; }
+  .marka { color: var(--accent); font-weight: 700; margin: 0 0 6px; }
+  h1 {
+    font-size: clamp(28px, 5vw, 36px);
+    font-weight: 750;
+    letter-spacing: -0.02em;
+    line-height: 1.15;
+    margin: 0 0 10px;
+  }
+  .meta { color: var(--ink-soft); font-size: 15px; margin: 0 0 32px; }
+  .kontakt {
+    background: var(--accent-bg);
+    border-radius: 12px;
+    padding: 18px 20px;
+    margin: 0 0 12px;
+    font-size: 17px;
+  }
+  .kontakt p { margin: 0 0 6px; }
+  .kontakt p:last-child { margin: 0; }
+  .mail { font-size: 21px; font-weight: 700; }
+  h2 {
+    font-size: 21px;
+    font-weight: 720;
+    margin: 40px 0 6px;
+    padding-top: 16px;
+    border-top: 1px solid var(--line);
+  }
+  h3 { font-size: 17px; font-weight: 700; margin: 26px 0 6px; }
+  p { margin: 0 0 14px; }
+  a { color: var(--accent); }
+  a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 3px; }
+  .en {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    padding: 20px 22px;
+    margin-top: 44px;
+  }
+  .en h2 { border-top: none; padding-top: 0; margin-top: 0; }
+  footer {
+    margin-top: 44px;
+    padding-top: 16px;
+    border-top: 1px solid var(--line);
+    color: var(--ink-soft);
+    font-size: 14px;
+  }
+</style>
+</head>
+<body>
+<main>
+
+<header>
+  <p class="marka">Kuponeo</p>
+  <h1>Pomoc</h1>
+  <p class="meta">Aplikacja mobilna Kuponeo na iPhone'a i Androida</p>
+</header>
+
+<div class="kontakt">
+  <p>Masz pytanie albo coś nie działa? Napisz:</p>
+  <p class="mail"><a href="mailto:kuponeo@outlook.com">kuponeo@outlook.com</a></p>
+  <p>Odpowiadamy zwykle w ciągu kilku dni roboczych. Jeśli zgłaszasz błąd, podaj model telefonu i wersję systemu.</p>
+</div>
+
+<h2>Najczęstsze pytania</h2>
+
+<h3>Jak skorzystać z kuponu?</h3>
+<p>Wybierz kupon z listy i otwórz go. Przy płaceniu pokaż bilet na ekranie telefonu. Obsługa lokalu przytrzymuje przycisk „Przytrzymaj, aby skasować” i nalicza rabat.</p>
+
+<h3>Dlaczego kupon kasuje obsługa, a nie ja?</h3>
+<p>Każdy kupon działa jeden raz. Dlatego skasowanie należy do obsługi, przy kasie. Nie przytrzymuj przycisku samodzielnie, bo kupon zostanie skasowany i nie będzie go można użyć.</p>
+
+<h3>Skasowałem kupon przez przypadek. Da się to cofnąć?</h3>
+<p>Nie. Skasowanie zapisuje się tylko w Twoim telefonie, a my nie przechowujemy żadnych danych, więc nie mamy jak go przywrócić.</p>
+
+<h3>Lista jest pusta albo widzę „Brak połączenia”</h3>
+<p>Sprawdź połączenie z internetem i przeciągnij listę w dół, żeby ją odświeżyć. Kupony mają daty ważności i po terminie znikają z listy. Sprawdź też, czy u góry wybrane jest właściwe miasto. Jeśli problem zostaje, napisz do nas.</p>
+
+<h3>Lokal nie chciał przyjąć kuponu</h3>
+<p>Sprawdź warunki i termin ważności zapisane na bilecie. Rabat udziela lokal, a obsługa może odmówić, jeśli kupon nie spełnia warunków albo budzi wątpliwości. Jeśli uważasz, że to pomyłka, napisz do nas i podaj nazwę lokalu oraz numer z biletu.</p>
+
+<h3>Czy aplikacja zbiera moje dane?</h3>
+<p>Nie. Nie ma kont, reklam, analityki ani śledzenia. Szczegóły są w <a href="prywatnosc.html">polityce prywatności</a>.</p>
+
+<h3>Jak usunąć dane aplikacji?</h3>
+<p>Usuń aplikację z telefonu. Na iPhonie lista skasowanych kuponów może zostać w systemowym pęku kluczy, żeby kuponu nie dało się użyć drugi raz. Opisujemy to w <a href="prywatnosc.html">polityce prywatności</a>.</p>
+
+<h3>Prowadzisz lokal i chcesz wystawić kupon?</h3>
+<p>Napisz na <a href="mailto:kuponeo@outlook.com">kuponeo@outlook.com</a>. Odezwiemy się i opowiemy, jak to działa.</p>
+
+<section class="en" lang="en">
+  <h2>Support (English)</h2>
+  <p>Kuponeo lists discounts from local businesses in Poznań, Poland. Open a coupon and show the ticket on your phone when paying. Staff redeem it by holding the button on your screen. Each coupon works once, and a redeemed coupon cannot be restored because we store no data.</p>
+  <p>If the list is empty or shows a connection error, check your internet connection, pull the list down to refresh and make sure the right city is selected.</p>
+  <p>The app has no accounts, ads, analytics or tracking. See the <a href="prywatnosc.html">privacy policy</a>.</p>
+  <p>Contact: <a href="mailto:kuponeo@outlook.com">kuponeo@outlook.com</a>. Please include your phone model and system version when reporting a problem.</p>
+</section>
+
+<footer>
+  <p>Kuponeo · Pomoc · <a href="prywatnosc.html">Polityka prywatności</a></p>
+</footer>
+
+</main>
+</body>
+</html>
